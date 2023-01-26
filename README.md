@@ -13,7 +13,13 @@ Damkier, Michael. (n.d.). Nebula in outer space, planets and galaxy. https://sto
 
 DeVries, J. (n.d.). LearnOpenGL/LICENSE.md at master · JoeyDeVries/LearnOpenGL. GitHub. https://github.com/JoeyDeVries/LearnOpenGL/blob/master/LICENSE.md
 
+DM7(n.d.). master spaceship in white background top view. https://as1.ftcdn.net/v2/jpg/04/16/15/36/1000_F_416153690_zcwO683IOB5otBAdR901AGXMqMqIvFkk.jpg
 Jurik, Peter. (n.d.). 360 degree space background with nebula and stars. https://as1.ftcdn.net/v2/jpg/04/81/96/54/1000_F_481965458_0VhZ3nfyzhp7BI7HLgDos5dG9Yk2bG4a.jpg
+
+Kattidirenko. (n.d.). 8-bit Pixel Game Over Message. https://as1.ftcdn.net/v2/jpg/04/15/65/94/1000_F_415659455_CzPjgzW5fvCtlpYbLni9gzO0IdesUstX.jpg
+
+klyaksun. (n.d.). 3d UFO, vector alien space ships.  https://as2.ftcdn.net/v2/jpg/03/92/10/35/1000_F_392103566_UdJ9v1iIybI4qBI00oeezzsnZhG4B0cW.jpg
+
 
 Samserius. (n.d.). Abstract circular geometric background. https://as1.ftcdn.net/v2/jpg/04/07/63/62/1000_F_407636260_DK9Cn5SCJcuMO1981KhxfNylW4U0NCMQ.jpg
 
