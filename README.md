@@ -3,7 +3,11 @@ Using OpenGL and Photoshop to make skyboxes and textures for 3d objects. Many im
 
 https://youtu.be/ZFx30Zmo1yI
 
+https://youtu.be/WE-DJ-A5yTY
+
 ![Screenshot 2023-01-24 104057](https://user-images.githubusercontent.com/110789514/214339087-e1b7a1c2-ace3-4d9a-b52c-75c6d405afac.png)
+
+![Screenshot 2023-01-26 112904](https://user-images.githubusercontent.com/110789514/214892358-50fb78fa-2a3d-4673-b759-62a78f34f659.png)
 
 ## References
 
