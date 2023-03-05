@@ -35,6 +35,8 @@ Sazonov, Viktor. (n.d.). Deep space, stars and nebula, 360 degrees panorama. htt
 
 Shacil (n.d.). 3d rendering. Space background with nebula and stars. https://as2.ftcdn.net/v2/jpg/04/08/74/91/1000_F_408749181_ppK3ft19oTKoVOOYkQorvgHtMmAzStB8.jpg
 
+Solar System Scope. (n.d.). 8k Stars. [Image]. Retrieved March 4, 2023, from https://www.solarsystemscope.com/textures/
+
 TenWit. (n.d.). Ancient Egyptian hieroglyphics carved on a stone wall. https://as1.ftcdn.net/v2/jpg/03/98/12/30/1000_F_398123053_OTZVcEOx2NmitYsU4Gac13ZsX7scfVPt.jpg
 
 XtravaganT. (n.d.). Space nebula and galaxy. https://as1.ftcdn.net/v2/jpg/05/29/87/36/1000_F_529873693_V74iNOFH3z0LxitPFigGfuaU3lDxVl5P.jpg
