@@ -1,3 +1,7 @@
+## Update
+
+Added 8K stars skybox for use in Modern OpenGL created from https://www.solarsystemscope.com/textures/ under 4.0 Creative Commons Attribution License. 
+
 ## About
 Using OpenGL and Photoshop to make skyboxes and textures for 3d objects. Many images were used...  
 
