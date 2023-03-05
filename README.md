@@ -15,15 +15,10 @@ March 5, 2023: Added new skyboxes and an hdr environment map for use in OpenGL.
 
 ## Photoshop Tutorial Links
 
-Using OpenGL and Photoshop to make skyboxes and textures for 3d objects. Many images were used...  
+Using OpenGL and Photoshop to make skyboxes and textures for 3d objects.
 
-How to make amazing skyboxes 20000 x 15000, 300dpi resolution in Photoshop in under 2 minutes:
-
-https://www.youtube.com/watch?v=7LiPo5eH600 
-
-https://youtu.be/ZFx30Zmo1yI
-
-https://youtu.be/WE-DJ-A5yTY
+How to make amazing skyboxes 20000 x 15000, 300dpi resolution in Photoshop in under 2 minutes:https://www.youtube.com/watch?v=7LiPo5eH600 
+Other videos: https://youtu.be/ZFx30Zmo1yI, https://youtu.be/WE-DJ-A5yTY
 
 ## Tutorial Previews
 
