@@ -356,17 +356,17 @@ int main()
     unsigned int pyramidTexture = loadTexture("resources/textures/4.png");
     unsigned int pyramid2Texture = loadTexture("resources/textures/6.png");
 
+    /* CREATE A CUBEMAP SKYBOX */
     vector<std::string> faces
     {
-        "resources/textures/2.png", // right   or rightright
-        "resources/textures/2.png", // right   or rightright
-        "resources/textures/2.png", // right   or rightright
-        "resources/textures/2.png", // right   or rightright
-        "resources/textures/2.png", // right   or rightright
-        "resources/textures/2.png", // right   or rightright
-
+        "resources/textures/space/right.jpg", // right 
+        "resources/textures/space/left.jpg", // left 
+        "resources/textures/space/top.jpg", // top  
+        "resources/textures/space/bottom.jpg", // bottom  
+        "resources/textures/space/front.jpg", // front
+        "resources/textures/space/back.jpg", // back
     };
-    unsigned int cubemapTexture = loadCubemap(faces);
+    unsigned int cubemapTexture = texture.loadCubemap(faces);
 
 
     // shader configuration
