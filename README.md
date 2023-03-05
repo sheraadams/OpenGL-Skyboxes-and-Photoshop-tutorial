@@ -1,8 +1,8 @@
 ## Update
 
-March 5, 2023: Added 8K stars skybox for use in Modern OpenGL created from https://www.solarsystemscope.com/textures/ under 4.0 Creative Commons Attribution License. Below are also some helpful Photoshop tutorials for working in OpenGL.
+March 5, 2023: Added 8K stars and meadow skyboxes for use in Modern OpenGL created from https://www.solarsystemscope.com/textures/ under 4.0 Creative Commons Attribution License. Meadow skybox is from http://www.humus.name 3.0 Creative Commons License. Below are also some helpful Photoshop tutorials for working in OpenGL.
 
-## Skybox Preview
+## Space Skybox Preview
 
 <p align="center">
   <img width="1000" height="1000" src="https://user-images.githubusercontent.com/110789514/222976468-0fd8be7a-dd3b-4b68-b954-1cfbc1ee831b.jpg">
@@ -42,6 +42,7 @@ Kattidirenko. (n.d.). 8-bit Pixel Game Over Message. https://as1.ftcdn.net/v2/jp
 
 klyaksun. (n.d.). 3d UFO, vector alien space ships.  https://as2.ftcdn.net/v2/jpg/03/92/10/35/1000_F_392103566_UdJ9v1iIybI4qBI00oeezzsnZhG4B0cW.jpg
 
+Persson, Emil (2007). Meadow. http://www.humus.name/index.php?page=Textures&ID=39
 
 Samserius. (n.d.). Abstract circular geometric background. https://as1.ftcdn.net/v2/jpg/04/07/63/62/1000_F_407636260_DK9Cn5SCJcuMO1981KhxfNylW4U0NCMQ.jpg
 
