@@ -24,6 +24,21 @@ Other videos: https://youtu.be/ZFx30Zmo1yI, https://youtu.be/WE-DJ-A5yTY
 
 ![Screenshot 2023-01-26 112904](https://user-images.githubusercontent.com/110789514/214892358-50fb78fa-2a3d-4673-b759-62a78f34f659.png)
 
+## Function
+    vector<std::string> faces
+    {
+        "resources/textures/space/right.jpg", // right 
+        "resources/textures/space/left.jpg", // left 
+        "resources/textures/space/top.jpg", // top  
+        "resources/textures/space/bottom.jpg", // bottom  
+        "resources/textures/space/front.jpg", // front
+        "resources/textures/space/back.jpg", // back
+    };
+    unsigned int cubemapTexture = texture.loadCubemap(faces) 
+  
+left and right are horizontally reflected
+front and back are horizontally reflected
+
 ## Image and Media References
 
 
