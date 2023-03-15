@@ -11,6 +11,9 @@ March 5, 2023: Added new skyboxes and an hdr environment map for use in OpenGL.
     <img width="300" height="300" src="https://user-images.githubusercontent.com/110789514/222980038-1075378d-cfc5-4bf1-93e7-a70c83567097.jpg">
     <img width="300" height="300" src="https://user-images.githubusercontent.com/110789514/222980136-d84374da-6472-4f80-a141-40c44daa2441.jpg">
     <img width="300" height="300" src="https://user-images.githubusercontent.com/110789514/222980406-c7539bd3-875b-4eb6-80fe-58cbdf1ac17a.png">
+    <img width="300" height="300" src="https://user-images.githubusercontent.com/110789514/225405846-fda5fff0-f221-4aa1-a683-de20d40eaa4c.jpg">
+    <img width="300" height="300" src="https://user-images.githubusercontent.com/110789514/225406623-71113728-c3e5-4a38-8866-9a7c08e8b602.jpg"> 
+    <img width="300" height="300" src="https://user-images.githubusercontent.com/110789514/225407354-6fb0423c-bf3f-409b-972c-ad60aa50f761.jpg">    
 </p>
 
 ## Photoshop Tutorial Links
@@ -46,7 +49,13 @@ DeVries, J. (n.d.). LearnOpenGL/LICENSE.md at master · JoeyDeVries/LearnOpenGL.
 
 DM7(n.d.). master spaceship in white background top view. https://as1.ftcdn.net/v2/jpg/04/16/15/36/1000_F_416153690_zcwO683IOB5otBAdR901AGXMqMqIvFkk.jpg
 
+Persson, Emil (2010).Heart in the sand. http://www.humus.name/index.php?page=Textures&ID=82
+
+Persson, Emil (2010). Måskonåive. http://www.humus.name/index.php?page=Cubemap&item=Maskonaive
+
 Persson, Emil (2007). Meadow. http://www.humus.name/index.php?page=Textures&ID=39
+
+Persson, Emil (2012). Nissi beach 2. http://www.humus.name/index.php?page=Textures&ID=100
 
 Samserius. (n.d.). Abstract circular geometric background. https://as1.ftcdn.net/v2/jpg/04/07/63/62/1000_F_407636260_DK9Cn5SCJcuMO1981KhxfNylW4U0NCMQ.jpg
 
