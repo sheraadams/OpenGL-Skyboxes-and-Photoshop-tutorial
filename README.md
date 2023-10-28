@@ -1,6 +1,6 @@
-## Update
+## About the Project
 
-March 5, 2023: Added new skyboxes and an hdr environment map for use in OpenGL. 
+This is a repository resource loaded with high resolution skyboxes for use with OpenGL (C++). Most of the skyboxes here are open source but are cited below for your reference. Tutorial are linked below to demonstrate Photoshop best practices for preserving detail  and resolution when working with the images. 
 
 ## Skybox Previews
 
@@ -20,14 +20,23 @@ March 5, 2023: Added new skyboxes and an hdr environment map for use in OpenGL.
 
 Using OpenGL and Photoshop to make skyboxes and textures for 3d objects.
 
-How to make amazing skyboxes 20000 x 15000, 300dpi resolution in Photoshop in under 2 minutes:https://www.youtube.com/watch?v=7LiPo5eH600 
-Other videos: https://youtu.be/ZFx30Zmo1yI, https://youtu.be/WE-DJ-A5yTY
+How to make amazing skyboxes 20000 x 15000, 300dpi resolution in Photoshop in under 2 minutes:
+
+[Tutorial 1](https://www.youtube.com/watch?v=7LiPo5eH600)
+
+Other videos: 
+
+[Tutorial 2](https://youtu.be/ZFx30Zmo1yI) and [Tutorial 3](https://youtu.be/WE-DJ-A5yTY)
 
 ## Tutorial Previews
 
 ![Screenshot 2023-01-26 112904](https://user-images.githubusercontent.com/110789514/214892358-50fb78fa-2a3d-4673-b759-62a78f34f659.png)
 
 ## Function
+
+The skyboxes use the following C++ function to create the skybox with OpenGL
+
+```cpp
     vector<std::string> faces
     {
         "resources/textures/space/right.jpg", // right 
@@ -37,7 +46,8 @@ Other videos: https://youtu.be/ZFx30Zmo1yI, https://youtu.be/WE-DJ-A5yTY
         "resources/textures/space/front.jpg", // front
         "resources/textures/space/back.jpg", // back
     };
-    unsigned int cubemapTexture = texture.loadCubemap(faces) 
+    unsigned int cubemapTexture = texture.loadCubemap(faces)
+```
   
 left and right are horizontally reflected
 front and back are horizontally reflected
@@ -47,30 +57,6 @@ front and back are horizontally reflected
 ![yt](https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/assets/110789514/8b707d90-0c99-45c6-a3b0-451d6965d1bb)
 
 ## Image and Media References
+[References](https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/edit/main/REFERENCES.md)
 
-Adams, Shera (2023) CG Galaxy. https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/assets/110789514/8b707d90-0c99-45c6-a3b0-451d6965d1bb
-
-DeVries, J. (n.d.). LearnOpenGL/LICENSE.md at master · JoeyDeVries/LearnOpenGL. GitHub. https://github.com/JoeyDeVries/LearnOpenGL/blob/master/LICENSE.md
-
-DM7(n.d.). master spaceship in white background top view. https://as1.ftcdn.net/v2/jpg/04/16/15/36/1000_F_416153690_zcwO683IOB5otBAdR901AGXMqMqIvFkk.jpg
-
-Persson, Emil (2010).Heart in the sand. http://www.humus.name/index.php?page=Textures&ID=82
-
-Persson, Emil (2010). Måskonåive. http://www.humus.name/index.php?page=Cubemap&item=Maskonaive
-
-Persson, Emil (2007). Meadow. http://www.humus.name/index.php?page=Textures&ID=39
-
-Persson, Emil (2012). Nissi beach 2. http://www.humus.name/index.php?page=Textures&ID=100
-
-Samserius. (n.d.). Abstract circular geometric background. https://as1.ftcdn.net/v2/jpg/04/07/63/62/1000_F_407636260_DK9Cn5SCJcuMO1981KhxfNylW4U0NCMQ.jpg
-
-Solar System Scope. (n.d.). 8k Stars. [Image]. Retrieved March 4, 2023, from https://www.solarsystemscope.com/textures/
-
-Unknown (n.d) Clouds. [Image] https://hdrmaps.com/above-the-clouds/
-
-Unknown. (n.d.). Iceberg. [Image] https://learnopengl.com/Advanced-OpenGL/Cubemaps
-
-unknown (n.d.). Loft. [Image] https://learnopengl.com/PBR/IBL/Specular-IBL
-
-Westbeam (2013). Space-Skybox. https://opengameart.org/content/space-skybox-0
 
