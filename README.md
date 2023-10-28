@@ -42,8 +42,13 @@ Other videos: https://youtu.be/ZFx30Zmo1yI, https://youtu.be/WE-DJ-A5yTY
 left and right are horizontally reflected
 front and back are horizontally reflected
 
+## More CG Tutorials Coming Soon
+
+![yt](https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/assets/110789514/8b707d90-0c99-45c6-a3b0-451d6965d1bb)
+
 ## Image and Media References
 
+Adams, Shera (2023) CG Galaxy. https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/assets/110789514/8b707d90-0c99-45c6-a3b0-451d6965d1bb
 
 DeVries, J. (n.d.). LearnOpenGL/LICENSE.md at master · JoeyDeVries/LearnOpenGL. GitHub. https://github.com/JoeyDeVries/LearnOpenGL/blob/master/LICENSE.md
 
