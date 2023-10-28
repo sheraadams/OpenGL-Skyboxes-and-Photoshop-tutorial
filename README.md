@@ -18,9 +18,7 @@ This is a repository resource loaded with high resolution skyboxes for use with 
 
 ## Photoshop Tutorial Links
 
-Using OpenGL and Photoshop to make skyboxes and textures for 3d objects.
-
-How to make amazing skyboxes 20000 x 15000, 300dpi resolution in Photoshop in under 2 minutes:
+Using OpenGL and Photoshop to make 20000 x 15000, 300 dpi resolution skyboxes in Photoshop in less than two minutes:
 
 [Tutorial 1](https://www.youtube.com/watch?v=7LiPo5eH600)
 
