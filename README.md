@@ -34,7 +34,8 @@ Other videos:
 
 ## Function
 
-The skyboxes use the following C++ function to create the skybox with OpenGL
+The skyboxes use the following C++ function to create the skybox with OpenGL. Note that left and right are horizontally reflected.
+Also, front and back are horizontally reflected.
 
 ```cpp
     vector<std::string> faces
@@ -48,9 +49,6 @@ The skyboxes use the following C++ function to create the skybox with OpenGL
     };
     unsigned int cubemapTexture = texture.loadCubemap(faces)
 ```
-  
-left and right are horizontally reflected
-front and back are horizontally reflected
 
 ## More CG Tutorials Coming Soon
 
@@ -59,4 +57,7 @@ front and back are horizontally reflected
 ## Image and Media References
 [References](https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/edit/main/REFERENCES.md)
 
+<div style="text-align: center;">
+  <p><strong>Proudly crafted with ❤️ by <a href="https://github.com/sheraadams" target="_blank">Shera Adams</a>.</strong></p>
+</div>
 
