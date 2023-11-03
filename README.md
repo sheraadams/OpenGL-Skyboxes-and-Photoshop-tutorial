@@ -1,6 +1,6 @@
 ## About the Project
 
-This is a repository resource loaded with high resolution skyboxes for use with OpenGL (C++). Most of the skyboxes here are open source but are cited below for your reference. Tutorial are linked below to demonstrate Photoshop best practices for preserving detail  and resolution when working with the images. 
+This is a repository resource loaded with high resolution skyboxes for use with OpenGL (C++). Most of the skyboxes here are open source but are cited below for your reference. Tutorials are linked below to demonstrate Photoshop best practices for preserving detail and resolution when working with the images. 
 
 ## Skybox Previews
 
