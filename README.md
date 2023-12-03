@@ -1,6 +1,6 @@
 ## About the Project
 
-This is a repository resource loaded with high resolution skyboxes for use with OpenGL (C++). Most of the skyboxes here are open source but are cited below for your reference. Tutorials are linked below to demonstrate Photoshop best practices for preserving detail and resolution when working with the images. 
+This is a repository resource loaded with high-resolution skyboxes for use with OpenGL (C++). Most of the skyboxes here are open source but are cited below for reference. Tutorials are linked below to demonstrate Photoshop's best practices for preserving detail and resolution when working with the images. 
 
 ## Skybox Previews
 
@@ -18,13 +18,11 @@ This is a repository resource loaded with high resolution skyboxes for use with 
 
 ## Photoshop Tutorial Links
 
-Using OpenGL and Photoshop to make 20000 x 15000, 300 dpi resolution skyboxes in Photoshop in less than two minutes:
-
-[Tutorial 1](https://www.youtube.com/watch?v=7LiPo5eH600)
+Using OpenGL and Photoshop to make 20000 x 15000, 300 dpi resolution skyboxes in Photoshop in less [than two minutes](https://www.youtube.com/watch?v=7LiPo5eH600).
 
 Other videos: 
 
-[Tutorial 2](https://youtu.be/ZFx30Zmo1yI) and [Tutorial 3](https://youtu.be/WE-DJ-A5yTY)
+Also check out how to [configure your opengl project](https://youtu.be/ZFx30Zmo1yI) and how to [create game assets](https://youtu.be/WE-DJ-A5yTY).
 
 ## Tutorial Previews
 
@@ -48,12 +46,8 @@ Also, front and back are horizontally reflected.
     unsigned int cubemapTexture = texture.loadCubemap(faces)
 ```
 
-## More CG Tutorials Coming Soon
-
-![yt](https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/assets/110789514/8b707d90-0c99-45c6-a3b0-451d6965d1bb)
-
 ## Image and Media References
-[References](https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/edit/main/REFERENCES.md)
+Check out my [references](https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/edit/main/REFERENCES.md) here.
 
 <div style="text-align: center;">
   <p><strong>Proudly crafted with ❤️ by <a href="https://github.com/sheraadams" target="_blank">Shera Adams</a>.</strong></p>
