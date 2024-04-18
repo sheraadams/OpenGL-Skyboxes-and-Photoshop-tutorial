@@ -1,0 +1,5 @@
+/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/cmake-build-debug/CMakeFiles/STB_IMAGE.dir
+/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/cmake-build-debug/CMakeFiles/GLAD.dir
+/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/cmake-build-debug/CMakeFiles/sa__app.dir
+/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/cmake-build-debug/CMakeFiles/rebuild_cache.dir

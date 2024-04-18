@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\src\1.getting_started\1.1.hello_window\hello_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{725BC55A-302D-35F5-B1E4-77907A956356}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

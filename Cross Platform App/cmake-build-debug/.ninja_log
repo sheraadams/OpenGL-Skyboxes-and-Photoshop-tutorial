@@ -1,0 +1,16 @@
+# ninja log v5
+7	608	1713463124292117181	CMakeFiles/sa__app.dir/src/sa/app/texture.cpp.o	565619bcbdfe11cf
+358	377	1713463124063714000	libSTB_IMAGE.a	487b5a6d3c68d358
+7	353	1713463124037818547	CMakeFiles/sa__app.dir/src/sa/app/stb_image.cpp.o	315fecabded55084
+6	992	1713463124674143155	CMakeFiles/sa__app.dir/src/sa/app/app.cpp.o	46700f767fe642b7
+6	618	1713463124300922919	CMakeFiles/sa__app.dir/src/sa/app/objects.cpp.o	b4f2ea41c8c9c92a
+6	358	1713463124043391941	CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.o	612bb0de4bacc283
+296	325	1713463124012438000	libGLAD.a	9fcbbfa0f9b53fd0
+3	411	1713463151087428596	build.ninja	c57b7d96fec55674
+546	693	7244348200000000	GLAD.lib	16b630ea9f75b32f
+619	718	7244348200000000	STB_IMAGE.lib	4f81ecf27b4c86c5
+6	296	1713463123981091145	CMakeFiles/GLAD.dir/src/glad.c.o	df6aba500ee2b6d0
+1	76	1713463151087428596	build.ninja	14bf0062ff90833e
+5	139	1713463151191390755	/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/bin/sa/sa__app	60ea32110f870508
+5	631	1713463177305830750	CMakeFiles/sa__app.dir/src/sa/app/app.cpp.o	46700f767fe642b7
+631	745	1713463177381870683	/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/bin/sa/sa__app	60ea32110f870508

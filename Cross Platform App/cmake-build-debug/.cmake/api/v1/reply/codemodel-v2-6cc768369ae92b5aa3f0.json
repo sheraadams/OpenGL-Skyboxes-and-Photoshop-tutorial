@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SheraAdamsProject330",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GLAD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GLAD-Debug-e04bec8459363dc366e0.json",
+					"name" : "GLAD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STB_IMAGE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STB_IMAGE-Debug-65f4aa2c1ba4e7007e43.json",
+					"name" : "STB_IMAGE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sa__app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sa__app-Debug-2aaa2be6addcec72de40.json",
+					"name" : "sa__app",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/cmake-build-debug",
+		"source" : "/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

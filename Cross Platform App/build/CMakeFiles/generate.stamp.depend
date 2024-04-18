@@ -1,0 +1,32 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/CMakeLists.txt
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/3.28.1/CMakeRCCompiler.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/3.28.1/CMakeSystem.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/cmake/modules/FindASSIMP.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/cmake/modules/FindGLFW3.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/cmake/modules/FindGLM.cmake
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/configuration/root_directory.h.in
+C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/configuration/visualstudio.vcxproj.user.in

@@ -1,0 +1,447 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/bin/sa/sa__app"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"create_project_from_sources",
+			"link_directories",
+			"target_link_libraries",
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/Cocoa.framework"
+				},
+				{
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/IOKit.framework"
+				},
+				{
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework"
+				},
+				{
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/CoreVideo.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/System/Library/Frameworks"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/cmake-build-debug/configuration"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/includes"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				18,
+				30,
+				32
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "STB_IMAGE::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "GLAD::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "sa__app::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-L\"/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/lib\"",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"/Users/s.adams/Documents/GitHub/OpenGL-Skyboxes-and-Photoshop-tutorial/Cross Platform App/lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker IOKit",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker CoreVideo",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/homebrew/lib/libglfw.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/homebrew/lib/libassimp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/homebrew/lib/libfreetype.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "libSTB_IMAGE.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "libGLAD.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sa__app",
+	"nameOnDisk" : "sa__app",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				9,
+				11,
+				12,
+				13,
+				14,
+				15,
+				25,
+				26,
+				27,
+				28
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				18,
+				30,
+				32
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				10,
+				16,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				29,
+				31,
+				33
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/TextShader.fs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/TextShader.vs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/sa/app/app.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/camera.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/flower_leaf.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/flower_stem.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/flower_upper.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/freetype.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/ft2build.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/glsl.vs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/input.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/light_green.fs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/light_pink.fs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/light_purple.fs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/lightbox.fs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/lightbox.vs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/mesh.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/model.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/sa/app/objects.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/objects.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/pen_accent.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/pen_body.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/pen_clip.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/pen_point.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/shader.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/skybox.fs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/skybox.vs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/specular.fs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/specular.vs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/sphere.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/sa/app/stb_image.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/stb_image.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/sa/app/texture.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/sa/app/texture.h",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

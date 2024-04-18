@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D1465155-CB84-3AA9-B8A0-15586F98A6EF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\configuration;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\configuration;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\configuration;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\configuration;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master -BC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build --check-stamp-file C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindASSIMP.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLFW3.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLM.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\root_directory.h.in;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\visualstudio.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master -BC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build --check-stamp-file C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindASSIMP.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLFW3.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLM.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\root_directory.h.in;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\visualstudio.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master -BC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build --check-stamp-file C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindASSIMP.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLFW3.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLM.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\root_directory.h.in;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\visualstudio.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master -BC:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build --check-stamp-file C:/Users/suicu/OneDrive/Desktop/LearnOpenGL-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindASSIMP.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLFW3.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\cmake\modules\FindGLM.cmake;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\root_directory.h.in;C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\configuration\visualstudio.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\ZERO_CHECK.vcxproj">
+      <Project>{49580E5F-4DCB-3DA5-81BA-6B95D16F491E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__1.1.hello_window.vcxproj">
+      <Project>{ED8809DE-CA51-3B51-9EEB-FE9F918875D1}</Project>
+      <Name>1.getting_started__1.1.hello_window</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__1.2.hello_window_clear.vcxproj">
+      <Project>{F0C93D1B-5F7B-3F16-8351-17859E7F798D}</Project>
+      <Name>1.getting_started__1.2.hello_window_clear</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__2.1.hello_triangle.vcxproj">
+      <Project>{195F69D4-2C90-3957-9EDE-B4706BA3B25C}</Project>
+      <Name>1.getting_started__2.1.hello_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__2.2.hello_triangle_indexed.vcxproj">
+      <Project>{3AC2F405-B7B3-3727-925A-38B14FFC55BA}</Project>
+      <Name>1.getting_started__2.2.hello_triangle_indexed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__2.3.hello_triangle_exercise1.vcxproj">
+      <Project>{6FBC6205-B127-3DEE-A79E-B292F2EAFF23}</Project>
+      <Name>1.getting_started__2.3.hello_triangle_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__2.4.hello_triangle_exercise2.vcxproj">
+      <Project>{AD039F1B-4F53-3325-8DC7-5C558377FC03}</Project>
+      <Name>1.getting_started__2.4.hello_triangle_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__2.5.hello_triangle_exercise3.vcxproj">
+      <Project>{5412CE8C-1FC6-3BF2-B60A-CAE6CFE07DD7}</Project>
+      <Name>1.getting_started__2.5.hello_triangle_exercise3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__3.1.shaders_uniform.vcxproj">
+      <Project>{CCA0D387-2CE3-37A7-A21A-7761C327CBAD}</Project>
+      <Name>1.getting_started__3.1.shaders_uniform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__3.2.shaders_interpolation.vcxproj">
+      <Project>{4B8B2BB9-AA58-336F-8823-E01C07AE7744}</Project>
+      <Name>1.getting_started__3.2.shaders_interpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__3.3.shaders_class.vcxproj">
+      <Project>{50EA2DD2-01EE-3B03-A282-A92DC493DEE7}</Project>
+      <Name>1.getting_started__3.3.shaders_class</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__4.1.textures.vcxproj">
+      <Project>{B618A7C7-DE53-31F1-8B7F-AED52A0C5109}</Project>
+      <Name>1.getting_started__4.1.textures</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__4.2.textures_combined.vcxproj">
+      <Project>{5185B5D8-28D3-38C4-BFDD-44AC09B8B7E1}</Project>
+      <Name>1.getting_started__4.2.textures_combined</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__4.4.textures_exercise2.vcxproj">
+      <Project>{F6D457DC-424A-386A-8A8F-A8EAD0DB818F}</Project>
+      <Name>1.getting_started__4.4.textures_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__4.5.textures_exercise3.vcxproj">
+      <Project>{996E8C2A-E89E-3D2D-8C54-F7BF9AF4A50A}</Project>
+      <Name>1.getting_started__4.5.textures_exercise3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__4.6.textures_exercise4.vcxproj">
+      <Project>{DA65464D-9EB9-3E82-90FE-DA290D9C5CFB}</Project>
+      <Name>1.getting_started__4.6.textures_exercise4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__5.1.transformations.vcxproj">
+      <Project>{5391E849-43C2-3EB3-8BEC-E111630FBA61}</Project>
+      <Name>1.getting_started__5.1.transformations</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__5.2.transformations_exercise2.vcxproj">
+      <Project>{160AE448-BAF1-31F5-91E2-057EAC5CC33E}</Project>
+      <Name>1.getting_started__5.2.transformations_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__6.1.coordinate_systems.vcxproj">
+      <Project>{8B00661D-48A7-3CF5-ADB3-301AD3CCCD73}</Project>
+      <Name>1.getting_started__6.1.coordinate_systems</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__6.2.coordinate_systems_depth.vcxproj">
+      <Project>{03A8B6B3-28DA-3F8D-A3AF-644A7AC33B67}</Project>
+      <Name>1.getting_started__6.2.coordinate_systems_depth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__6.3.coordinate_systems_multiple.vcxproj">
+      <Project>{34AD1C23-FEB6-39A9-B13C-9BE5FDC4E4EC}</Project>
+      <Name>1.getting_started__6.3.coordinate_systems_multiple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__7.1.camera_circle.vcxproj">
+      <Project>{2AAFE7F6-B4F6-3D71-9D91-00073785C149}</Project>
+      <Name>1.getting_started__7.1.camera_circle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__7.2.camera_keyboard_dt.vcxproj">
+      <Project>{EE5EF1B4-7765-3D16-986F-5C00126A3DDC}</Project>
+      <Name>1.getting_started__7.2.camera_keyboard_dt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__7.3.camera_mouse_zoom.vcxproj">
+      <Project>{74256CD9-2E92-371B-87BE-2536AE81DB22}</Project>
+      <Name>1.getting_started__7.3.camera_mouse_zoom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\1.getting_started__7.4.camera_class.vcxproj">
+      <Project>{34B50F6E-8A0A-3B47-93D6-A7694C549597}</Project>
+      <Name>1.getting_started__7.4.camera_class</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__1.colors.vcxproj">
+      <Project>{91ED6E18-E6C6-36A0-89D3-80B1824093D7}</Project>
+      <Name>2.lighting__1.colors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__2.1.basic_lighting_diffuse.vcxproj">
+      <Project>{03E9B6DA-1CEE-3A6E-9B07-5BBE37554710}</Project>
+      <Name>2.lighting__2.1.basic_lighting_diffuse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__2.2.basic_lighting_specular.vcxproj">
+      <Project>{048E5449-29D8-3E4B-BDA4-684BF2DFBE30}</Project>
+      <Name>2.lighting__2.2.basic_lighting_specular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__3.1.materials.vcxproj">
+      <Project>{929166FE-F58B-3259-A7AC-6FD60290DD8E}</Project>
+      <Name>2.lighting__3.1.materials</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__3.2.materials_exercise1.vcxproj">
+      <Project>{E446E77F-0617-3A59-B66F-DE8CDDDA4AF8}</Project>
+      <Name>2.lighting__3.2.materials_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__4.1.lighting_maps_diffuse_map.vcxproj">
+      <Project>{95DBC5AC-0FB7-3705-BC24-78FE38B9EC88}</Project>
+      <Name>2.lighting__4.1.lighting_maps_diffuse_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__4.2.lighting_maps_specular_map.vcxproj">
+      <Project>{D1E6F18E-2683-329C-ABCB-FFAED1650F8B}</Project>
+      <Name>2.lighting__4.2.lighting_maps_specular_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__4.4.lighting_maps_exercise4.vcxproj">
+      <Project>{20490FB8-A90E-3D60-96ED-7C926290C5F6}</Project>
+      <Name>2.lighting__4.4.lighting_maps_exercise4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__5.1.light_casters_directional.vcxproj">
+      <Project>{5D98405D-78CA-3A2B-A71A-3B86621683C0}</Project>
+      <Name>2.lighting__5.1.light_casters_directional</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__5.2.light_casters_point.vcxproj">
+      <Project>{9785D299-404C-3729-841A-29989983C6B8}</Project>
+      <Name>2.lighting__5.2.light_casters_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__5.3.light_casters_spot.vcxproj">
+      <Project>{A77A202D-94F4-3358-AD78-19EE2E8BA5E8}</Project>
+      <Name>2.lighting__5.3.light_casters_spot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__5.4.light_casters_spot_soft.vcxproj">
+      <Project>{5345470E-C7A8-3721-9653-C9DD2851EB2E}</Project>
+      <Name>2.lighting__5.4.light_casters_spot_soft</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\2.lighting__6.multiple_lights.vcxproj">
+      <Project>{7B457CA4-BBF2-3BF9-B38F-571709EE656B}</Project>
+      <Name>2.lighting__6.multiple_lights</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\3.model_loading__1.model_loading.vcxproj">
+      <Project>{8ED1AE25-08E2-30F7-88D7-842399EA9EF9}</Project>
+      <Name>3.model_loading__1.model_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__1.1.depth_testing.vcxproj">
+      <Project>{592C7F57-A01C-3E80-AF2E-FD3CC4DF98A3}</Project>
+      <Name>4.advanced_opengl__1.1.depth_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__1.2.depth_testing_view.vcxproj">
+      <Project>{E717308E-616A-3D7F-9140-C646EB75DFBF}</Project>
+      <Name>4.advanced_opengl__1.2.depth_testing_view</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__10.1.instancing_quads.vcxproj">
+      <Project>{AF7010AE-F121-31E8-836C-7A45809921EC}</Project>
+      <Name>4.advanced_opengl__10.1.instancing_quads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__10.2.asteroids.vcxproj">
+      <Project>{733161DA-566D-38A7-8E6D-8F3DCE45A767}</Project>
+      <Name>4.advanced_opengl__10.2.asteroids</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__10.3.asteroids_instanced.vcxproj">
+      <Project>{0AF9161B-ED42-3499-88D8-C2E4C4757B8E}</Project>
+      <Name>4.advanced_opengl__10.3.asteroids_instanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__11.1.anti_aliasing_msaa.vcxproj">
+      <Project>{8BA3563D-AA68-307B-AA13-44B6F31DD10B}</Project>
+      <Name>4.advanced_opengl__11.1.anti_aliasing_msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__11.2.anti_aliasing_offscreen.vcxproj">
+      <Project>{A3423F83-EABA-33F0-A9C9-6F5D750F70E4}</Project>
+      <Name>4.advanced_opengl__11.2.anti_aliasing_offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__2.stencil_testing.vcxproj">
+      <Project>{E36FC73C-4688-3F1E-AE96-C25EF9F69180}</Project>
+      <Name>4.advanced_opengl__2.stencil_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__3.1.blending_discard.vcxproj">
+      <Project>{DE00330E-A1F1-31F3-A312-B78B04E883B6}</Project>
+      <Name>4.advanced_opengl__3.1.blending_discard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__3.2.blending_sort.vcxproj">
+      <Project>{A2D63C79-95A9-3E8A-A2B2-AC0F29155B5E}</Project>
+      <Name>4.advanced_opengl__3.2.blending_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__5.1.framebuffers.vcxproj">
+      <Project>{C1FE87EE-D362-37E8-859F-A4076AE15D7E}</Project>
+      <Name>4.advanced_opengl__5.1.framebuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__5.2.framebuffers_exercise1.vcxproj">
+      <Project>{33EC519E-C905-3774-8162-F968926CE06E}</Project>
+      <Name>4.advanced_opengl__5.2.framebuffers_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__6.1.cubemaps_skybox.vcxproj">
+      <Project>{857B93B4-B095-3296-AE9F-23515A71BC39}</Project>
+      <Name>4.advanced_opengl__6.1.cubemaps_skybox</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__6.2.cubemaps_environment_mapping.vcxproj">
+      <Project>{52DACF19-E6E7-3E40-88D0-68FBB7BB9BF0}</Project>
+      <Name>4.advanced_opengl__6.2.cubemaps_environment_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__8.advanced_glsl_ubo.vcxproj">
+      <Project>{569AFB9C-EC57-33C6-9F85-483A30E3352A}</Project>
+      <Name>4.advanced_opengl__8.advanced_glsl_ubo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__9.1.geometry_shader_houses.vcxproj">
+      <Project>{31E03274-DD15-3F4E-BB7C-680E0813D50D}</Project>
+      <Name>4.advanced_opengl__9.1.geometry_shader_houses</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__9.2.geometry_shader_exploding.vcxproj">
+      <Project>{8FB3B3D5-BBCD-3494-B703-B00691582DED}</Project>
+      <Name>4.advanced_opengl__9.2.geometry_shader_exploding</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\4.advanced_opengl__9.3.geometry_shader_normals.vcxproj">
+      <Project>{9C09FFFE-DE3C-3355-8346-FF5EA39F00A6}</Project>
+      <Name>4.advanced_opengl__9.3.geometry_shader_normals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__1.advanced_lighting.vcxproj">
+      <Project>{8414E426-111B-31C2-A3DE-E1D3A2967D49}</Project>
+      <Name>5.advanced_lighting__1.advanced_lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__2.gamma_correction.vcxproj">
+      <Project>{1B2BB12B-9BDB-32E5-B90E-A5F1D87370D0}</Project>
+      <Name>5.advanced_lighting__2.gamma_correction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__3.1.1.shadow_mapping_depth.vcxproj">
+      <Project>{70DEA003-1FDA-37FA-93FB-BDD90F11385F}</Project>
+      <Name>5.advanced_lighting__3.1.1.shadow_mapping_depth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__3.1.2.shadow_mapping_base.vcxproj">
+      <Project>{38A390F0-AAE6-3736-AAD3-156A4AED7138}</Project>
+      <Name>5.advanced_lighting__3.1.2.shadow_mapping_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__3.1.3.shadow_mapping.vcxproj">
+      <Project>{99DE1A89-D0CA-3518-862B-AB8404C2AB17}</Project>
+      <Name>5.advanced_lighting__3.1.3.shadow_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__3.2.1.point_shadows.vcxproj">
+      <Project>{0B351EF2-3212-31C8-AB8B-E77BC20F0954}</Project>
+      <Name>5.advanced_lighting__3.2.1.point_shadows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__3.2.2.point_shadows_soft.vcxproj">
+      <Project>{46924D01-E1A5-3BD0-AD31-64C5C3004BC8}</Project>
+      <Name>5.advanced_lighting__3.2.2.point_shadows_soft</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__4.normal_mapping.vcxproj">
+      <Project>{B7DA07A6-4A59-35FE-8D60-CE6982E818DF}</Project>
+      <Name>5.advanced_lighting__4.normal_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__5.1.parallax_mapping.vcxproj">
+      <Project>{81B6A8CC-38D9-32FE-9752-ACFDDEAC3EFA}</Project>
+      <Name>5.advanced_lighting__5.1.parallax_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__5.2.steep_parallax_mapping.vcxproj">
+      <Project>{F4F1C9B6-05F2-3B8D-B727-26EEA12D10C6}</Project>
+      <Name>5.advanced_lighting__5.2.steep_parallax_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__5.3.parallax_occlusion_mapping.vcxproj">
+      <Project>{435E9EC4-EA10-3076-B30D-B21E9E37C143}</Project>
+      <Name>5.advanced_lighting__5.3.parallax_occlusion_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__6.hdr.vcxproj">
+      <Project>{0D8E577D-7C43-3C99-A129-B264A194B060}</Project>
+      <Name>5.advanced_lighting__6.hdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__7.bloom.vcxproj">
+      <Project>{B8964BC5-093F-3F34-B382-DB84CC142479}</Project>
+      <Name>5.advanced_lighting__7.bloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__8.1.deferred_shading.vcxproj">
+      <Project>{6209ED6E-E5DB-3023-9D03-8DA6DAE57E79}</Project>
+      <Name>5.advanced_lighting__8.1.deferred_shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__8.2.deferred_shading_volumes.vcxproj">
+      <Project>{E6BA60AA-5FF4-319F-9BAD-D87657D45CC8}</Project>
+      <Name>5.advanced_lighting__8.2.deferred_shading_volumes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\5.advanced_lighting__9.ssao.vcxproj">
+      <Project>{9DC07521-88C5-3B5D-86B5-8B86E6AAE83B}</Project>
+      <Name>5.advanced_lighting__9.ssao</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\6.pbr__1.1.lighting.vcxproj">
+      <Project>{A260F55C-3A47-3D98-945C-21A884218401}</Project>
+      <Name>6.pbr__1.1.lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\6.pbr__1.2.lighting_textured.vcxproj">
+      <Project>{09F89DC8-D96B-3767-914C-D63DEADB3C44}</Project>
+      <Name>6.pbr__1.2.lighting_textured</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\6.pbr__2.1.1.ibl_irradiance_conversion.vcxproj">
+      <Project>{9938DACA-BEDD-30E5-96FA-A574A8672297}</Project>
+      <Name>6.pbr__2.1.1.ibl_irradiance_conversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\6.pbr__2.1.2.ibl_irradiance.vcxproj">
+      <Project>{5EDF554A-D256-321A-B5FA-9C2CBF8EA0A3}</Project>
+      <Name>6.pbr__2.1.2.ibl_irradiance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\6.pbr__2.2.1.ibl_specular.vcxproj">
+      <Project>{611BE4CD-1CE8-30CC-9777-2ABD7DD197F9}</Project>
+      <Name>6.pbr__2.2.1.ibl_specular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\6.pbr__2.2.2.ibl_specular_textured.vcxproj">
+      <Project>{76C18494-ED35-3941-8D01-C71EFCC8B9FA}</Project>
+      <Name>6.pbr__2.2.2.ibl_specular_textured</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\7.in_practice__1.debugging.vcxproj">
+      <Project>{8CEDA067-3893-3DFD-9752-48ECB2E18517}</Project>
+      <Name>7.in_practice__1.debugging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\7.in_practice__2.text_rendering.vcxproj">
+      <Project>{348D8483-4C67-312C-B603-EA706A4DCAC4}</Project>
+      <Name>7.in_practice__2.text_rendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2020_oit.vcxproj">
+      <Project>{2743D17B-2CEF-3DC6-96D8-AAFA6B3AFFB5}</Project>
+      <Name>8.guest_2020_oit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2020_skeletal_animation.vcxproj">
+      <Project>{C4488534-029A-3C59-BFE5-032BEEA57C8D}</Project>
+      <Name>8.guest_2020_skeletal_animation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2021_1.scene_1.scene_graph.vcxproj">
+      <Project>{0CB16E9D-8393-3392-9EED-402DAB14CB73}</Project>
+      <Name>8.guest_2021_1.scene_1.scene_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2021_1.scene_2.frustum_culling.vcxproj">
+      <Project>{6D4D6966-E02F-3291-9842-46069B1CE02D}</Project>
+      <Name>8.guest_2021_1.scene_2.frustum_culling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2021_2.csm.vcxproj">
+      <Project>{9AEE814F-8393-3A35-840A-F813AD79F24E}</Project>
+      <Name>8.guest_2021_2.csm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2021_3.tessellation_terrain_cpu_src.vcxproj">
+      <Project>{AC538DFC-B0DA-307A-A1E9-DD647C950FF6}</Project>
+      <Name>8.guest_2021_3.tessellation_terrain_cpu_src</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2021_3.tessellation_terrain_gpu_dist.vcxproj">
+      <Project>{CFF2E319-7CC3-3184-9E76-84C9B08CA6C3}</Project>
+      <Name>8.guest_2021_3.tessellation_terrain_gpu_dist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2021_4.dsa.vcxproj">
+      <Project>{FB6F075C-85CA-3A67-A50A-ADC3FA60DC33}</Project>
+      <Name>8.guest_2021_4.dsa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2022_5.computeshader_helloworld.vcxproj">
+      <Project>{A691B2AF-38C6-3287-988A-29BD863CB217}</Project>
+      <Name>8.guest_2022_5.computeshader_helloworld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2022_6.physically_based_bloom.vcxproj">
+      <Project>{16B57CE5-606F-3B67-ADD6-F72216D8AA9D}</Project>
+      <Name>8.guest_2022_6.physically_based_bloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2022_7.area_lights_1.area_light.vcxproj">
+      <Project>{7073CB33-4317-3F5A-8FE3-672DBE7FBD1C}</Project>
+      <Name>8.guest_2022_7.area_lights_1.area_light</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\8.guest_2022_7.area_lights_2.multiple_area_lights.vcxproj">
+      <Project>{6C4C016A-6034-3CC5-8617-A6C9D157AD9C}</Project>
+      <Name>8.guest_2022_7.area_lights_2.multiple_area_lights</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\GLAD.vcxproj">
+      <Project>{0435BD62-1DA7-3DE3-8CF5-BDF774D926E7}</Project>
+      <Name>GLAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\suicu\OneDrive\Desktop\LearnOpenGL-master\build\STB_IMAGE.vcxproj">
+      <Project>{33510D66-9197-3090-9F15-9B4D70A214D1}</Project>
+      <Name>STB_IMAGE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
