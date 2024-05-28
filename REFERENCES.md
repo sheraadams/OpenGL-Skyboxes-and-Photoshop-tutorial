@@ -1,13 +1,5 @@
 # References
 
--652234. (n.d). *Wood texture template.* https://pixabay.com/photos/wood-texture-template-structure-4754713/
-
--Adams, Aaron. (2014). *Original Backing Track* [Video]. YouTube. https://www.youtube.com/watch?v=v_0w8-0QPhI
-
--Adams, Shera (2023) CG Galaxy. https://github.com/sheraadams/OpenGL-Skyboxes-and-Photoshop-tutorial/assets/110789514/8b707d90-0c99-45c6-a3b0-451d6965d1bb
-
--Adams, Shera. (2022). *Protractor.*
-
 -Big-O Algorithm Complexity Cheat Sheet *(Know Thy Complexities!)* @ericdrowell. (n.d.). https://www.bigocheatsheet.com/
 
 -Chinh. (n.d.) *Seamless nice beautiful wood texture and background.* https://as2.ftcdn.net/v2/jpg/03/72/44/25/1000_F_372442505_bQqEQm29uHjkLo2XE12L0Fm7vvejyxcQ.jpg
